@@ -30,7 +30,7 @@ gcc -Wall -Wextra -O2 -Iinclude menu_arvores.c arvore.c percursos.c abb.c -o men
 
 ### 🔹 Calculadora de Expressões (RPN)
 ```bash
-gcc -Wall -Wextra -O2 calculadora_expressao.c arvore.c -o calculadora_expressao.exe
+gcc -Wall -Wextra -O2 -Iinclude calculadora_expressao.c arvore.c -o calculadora_expressao.exe
 .\calculadora_expressao.exe
 ```
 
